@@ -12,7 +12,7 @@ class IngestionRawData:
     @staticmethod
     def get_date_now():
         dt= datetime.now()
-        dt=dt.strftime('year=%y/month=%m/day=%d')
+        dt=dt.strftime('year=%Y/month=%m/day=%d')
         return dt
 
     def ingestion_files(self, dt, prefix):
