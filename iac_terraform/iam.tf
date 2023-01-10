@@ -15,7 +15,7 @@ data "aws_iam_policy_document" "aws_iam_policy_document_sqs_raw_data" {
 
     condition {
       test     = "ArnEquals"
-      values   = ["${aws_s3_bucket.aws_s3_bucket_raw_data.arn}"]
+      values   = ["${aws_s3_bucket.aws_s3_bucket_bronze_data.arn}"]
       variable = "aws:SourceArn"
     }
 
