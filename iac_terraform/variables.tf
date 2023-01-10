@@ -20,7 +20,7 @@ variable "aws_tags" {
   type = map(string)
   default = {
     Owner          = "Guilherme Gandolfi"
-    "Data Project" = "Nyc - data lakehouse"
+    "Data Project" = "Marvel Data Lakehouse"
   }
 
 }
