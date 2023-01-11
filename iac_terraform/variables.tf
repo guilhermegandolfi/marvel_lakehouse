@@ -19,7 +19,7 @@ variable "aws_region" {
 variable "aws_tags" {
   type = map(string)
   default = {
-    Owner          = "Guilherme Gandolfi"
+    "Owner"        = "Guilherme Gandolfi"
     "Data Project" = "Marvel Data Lakehouse"
   }
 

@@ -2,7 +2,7 @@
 ## policy to use in sqs for information in raw data
 #####################################################################################################
 
-data "aws_iam_policy_document" "aws_iam_policy_document_sqs_raw_data" {
+data "aws_iam_policy_document" "aws_iam_policy_document_sqs_bronze_data" {
   statement {
     principals {
       type        = "AWS"
@@ -11,7 +11,7 @@ data "aws_iam_policy_document" "aws_iam_policy_document_sqs_raw_data" {
 
     sid       = "1"
     actions   = ["sqs:SendMessage", ]
-    resources = ["${aws_sqs_queue.aws_sqs_queue_raw_data.arn}", ]
+    resources = ["${aws_sqs_queue.aws_sqs_queue_bronze_data.arn}", ]
 
     condition {
       test     = "ArnEquals"
