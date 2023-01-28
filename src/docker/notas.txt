@@ -1,0 +1,10 @@
+docker run \
+-d -v ../../:/home/jovyan/work \
+-p 8888:8888 \
+-p 4040:4040 \
+-p 4041:4041 \
+--user root \
+-e GRANT_SUDO=yes \
+--name aws_marvel_lakehouse jupyter/pyspark-notebook
+ 
+docker start awsanalytics
