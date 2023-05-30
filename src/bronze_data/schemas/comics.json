@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "comicID",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "title",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "issueNumber",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "description",
+            "nullable": true,
+            "type": "string"
+        }
+    ],
+    "type": "struct"
+}
