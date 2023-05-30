@@ -1,0 +1,1013 @@
+{
+    "fields": [
+      {
+        "metadata": {},
+        "name": "Name",
+        "nullable": true,
+        "type": "string"
+      },
+      {
+        "metadata": {},
+        "name": "Agility",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Accelerated Healing",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Lantern Power Ring",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Dimensional Awareness",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Cold Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Durability",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Stealth",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Absorption",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Flight",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Danger Sense",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Underwater breathing",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Marksmanship",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Weapons Master",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Power Augmentation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Animal Attributes",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Longevity",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Intelligence",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Super Strength",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Cryokinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Telepathy",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Armor",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Blasts",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Duplication",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Size Changing",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Density Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Stamina",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Astral Travel",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Audio Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Dexterity",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Omnitrix",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Super Speed",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Possession",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Animal Oriented Powers",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Weapon-based Powers",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Electrokinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Darkforce Manipulation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Death Touch",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Teleportation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Enhanced Senses",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Telekinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Beams",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Magic",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Hyperkinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Jump",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Clairvoyance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Dimensional Travel",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Power Sense",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Shapeshifting",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Peak Human Condition",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Immortality",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Camouflage",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Element Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Phasing",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Astral Projection",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Electrical Transport",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Fire Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Projection",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Summoning",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Enhanced Memory",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Reflexes",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Invulnerability",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Constructs",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Force Fields",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Self-Sustenance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Anti-Gravity",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Empathy",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Power Nullifier",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Radiation Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Psionic Powers",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Elasticity",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Substance Secretion",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Elemental Transmogrification",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Technopath/Cyberpath",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Photographic Reflexes",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Seismic Power",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Animation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Precognition",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Mind Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Fire Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Power Absorption",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Enhanced Hearing",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Nova Force",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Insanity",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Hypnokinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Animal Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Natural Armor",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Intangibility",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Enhanced Sight",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Molecular Manipulation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Heat Generation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Adaptation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Gliding",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Power Suit",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Mind Blast",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Probability Manipulation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Gravity Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Regeneration",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Light Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Echolocation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Levitation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Toxin and Disease Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Banish",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Manipulation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Heat Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Natural Weapons",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Time Travel",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Enhanced Smell",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Illusions",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Thirstokinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Hair Manipulation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Illumination",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Omnipotent",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Cloaking",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Changing Armor",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Power Cosmic",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Biokinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Water Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Radiation Immunity",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Telescopic",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Toxin and Disease Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Spatial Awareness",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Energy Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Telepathy Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Molecular Combustion",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Omnilingualism",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Portal Creation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Magnetism",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Mind Control Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Plant Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Sonar",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Sonic Scream",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Time Manipulation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Enhanced Touch",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Magic Resistance",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Invisibility",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Sub-Mariner",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Radiation Absorption",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Intuitive aptitude",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Microscopic",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Melting",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Wind Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Super Breath",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Wallcrawling",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Night",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Infrared",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Grim Reaping",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Matter Absorption",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "The Force",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Resurrection",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Terrakinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Heat",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vitakinesis",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Radar Sense",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Qwardian Power Ring",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Weather Control",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - X-Ray",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Thermal",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Web Creation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Reality Warping",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Odin Force",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Symbiote Costume",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Speed Force",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Phoenix Force",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Molecular Dissipation",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Vision - Cryo",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Omnipresent",
+        "nullable": true,
+        "type": "boolean"
+      },
+      {
+        "metadata": {},
+        "name": "Omniscient",
+        "nullable": true,
+        "type": "boolean"
+      }
+    ],
+    "type": "struct"
+  }

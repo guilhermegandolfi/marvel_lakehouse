@@ -2,15 +2,15 @@
     "fields": [
         {
             "metadata": {},
-            "name": "characterID",
+            "name": "comicID",
             "nullable": true,
             "type": "integer"
         },
         {
             "metadata": {},
-            "name": "name",
+            "name": "characterID",
             "nullable": true,
-            "type": "string"
+            "type": "integer"
         }
     ],
     "type": "struct"

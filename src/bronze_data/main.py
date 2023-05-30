@@ -1,63 +1,79 @@
+import pyspark
+from delta import *
+import json
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
-import json
 from pyspark.sql import types
-from delta import *
 from pyspark.sql.functions import *
 from delta.tables import *
-from pyspark.sql.functions import *
 from datetime import datetime
+import boto3
+
 
 class ProcessBronzeData:
 
-    def __init__(self, nam_file, path_source=None, path_target=None):
-        self.path_source = path_source
-        self.path_target = path_target
-        self.nam_file = nam_file
+    def __init__(self, nam_table, nam_prefix, nam_bucket):
+        self.nam_table = nam_table
+        self.nam_prefix = nam_prefix
+        self.nam_bucket = nam_bucket
 
-    def spark_session(self):
-        builder = SparkSession.builder.appName("MyApp") \
-                    .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
-                    .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
-
-        spark = configure_spark_with_delta_pip(builder).getOrCreate()
-        
-        return spark
-
-    def load_schema_file(self,nam_path):
-        with open(f"{json_path}/{self.nam_file}.json",'r') as f:
-            data = json.load(f)
-        schemaFromJson = StructType.fromJson(data)
-
-        return schemaFromJson
-
-    def load_bronze_data_csv(self, spark, schema, header=True):
-
-        df=spark.read.csv(f'{self.path_source}/{self.nam_file}.csv', header=header, schema=schema)
-        desc_date=datetime.now()
-        desc_date=desc_date.strftime('%Y%m%d')
-        df=df.withColumn('dat_load', lit(desc_date))
-        df.write.format("delta").mode("overwrite").partitionBy("dat_load").save(f'{self.path_target}/delta/{self.nam_file}')
-
-    def files_to_process(self):
+    def load_date_partition(self):
         pass
 
-    def load_bronze_data_merge_csv(self, spark, schema, header=True):
+    def init_spark(self):
+        builder = pyspark.sql.SparkSession.builder.appName("MyApp") \
+            .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
+            .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
 
-        df=spark.read.csv(f'{self.path_source}/{self.nam_file}.csv', header=header, schema=schema)
-        desc_date=datetime.now()
-        desc_date=desc_date.strftime('%Y%m%d')
-        df=df.withColumn('dat_load', lit(desc_date))
-        df.write.format("delta").mode("overwrite").partitionBy("dat_load").save(f'{self.path_target}/delta/{self.nam_file}')
-        df.show(10)
+        spark = configure_spark_with_delta_pip(builder).getOrCreate()
+
+        return spark
+
+    def load_schema(self, spark, des_schema):
+
+        with open(des_schema, 'r') as f:
+            data = json.load(f)
+
+        schemaFromJson = StructType.fromJson(data)
+
+        df = spark.read.csv(
+            f"s3://{self.nam_bucket}/{self.nam_prefix}/{self.nam_table}", header=True, schema=schemaFromJson)
+
+        return df
+
+    def load_df_bronze(self, df, key):
+
+        dat_load = datetime.now()
+        dat_load = dat_load.strftime('%Y%m%d_%H:%m:%S')
+        df = df.withColumn('dat_load', lit(dat_load))
+
+        s3 = boto3.client('s3')
+        response = s3.list_objects_v2(
+            Bucket=self.nam_bucket, Prefix=self.nam_file)
+
+        if response['KeyCount'] > 1:
+            df.write.format("delta").mode("overwrite").save(
+                f"s3://{self.nam_bucket}/{self.nam_prefix}/{self.nam_table}")
+
+        else:
+            df.write.format("delta").save(
+                f"s3://{self.nam_bucket}/{self.nam_prefix}/{self.nam_table}")
+
+        print('Quantidade de registros gravados: ', df.count())
 
 
 if __name__ == '__main__':
-    nam_path='..//..//data_set'
-    nam_file='characters'
-    json_path='schemas'
+    nam_bucket = 'marvel-bronze-dev'
+    nam_file = 'comics'
+    nam_prefix = 'raw_data/'
+    json_path = '/home/glue_user/workspace/jupyter_workspace/src/bronze_data/schemas'
 
-    bronze_data=ProcessBronzeData(nam_file, nam_path, nam_path)
-    spark=bronze_data.spark_session()
-    schema=bronze_data.load_schema_file(json_path)
-    bronze_data.load_bronze_data_csv(spark, schema)
+    process_bronze_data = ProcessBronzeData(
+        f"{nam_file}.csv", nam_prefix, '')
+
+    spark = process_bronze_data.init_spark()
+
+    df_raw = process_bronze_data.load_schema(
+        spark, f"{json_path}/{nam_file}.json")
+
+    df_export = process_bronze_data.load_df_bronze(df_raw)

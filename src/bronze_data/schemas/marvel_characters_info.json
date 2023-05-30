@@ -1,0 +1,71 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ID",
+            "nullable": false,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "Name",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "Alignment",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "Gender",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "EyeColor",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "Race",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "HairColor",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "Publisher",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SkinColor",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "Height",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "Weight",
+            "nullable": true,
+            "type": "integer"
+        }
+    ],
+    "type": "struct"
+}
